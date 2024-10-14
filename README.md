@@ -37,3 +37,16 @@
   <li>If the limit is exceeded, the API returns an error message, and the UI shows "Rate limit exceeded.</li>
 </ol>
 
+<h2>Setup Instructions:</h2>
+<ol>
+  <li>Clone the repository:</li>
+  <pre>
+    git clone https://github.com/your-repo/api-rate-limiter-ui.git </pre>
+  <li>Install dependencies:</li>
+  <pre>
+    go mod tidy</pre>
+  <li>Run the application:</li>
+  <pre>
+    go run main.go</pre>
+  <li>Open your browser and visit <u>http://localhost:8080/</u> to use the service.</li>
+</ol>
