@@ -22,4 +22,18 @@
   </ul>
 </ul>
 
+<h2>Technology Stack:</h2>
+<ol>
+  <li>Frontend: HTML, CSS, JavaScript</li>
+  <li>Backend: Golang, Gorilla Mux</li>
+  <li>Rate Limiting Algorithm: Token Bucket</li>
+  <li>Middleware: Rate limit middleware for request handling</li>
+</ol>
+<h2>How It Works:</h2>
+<ol>
+  <li>The frontend provides a button to send an API request.</li>
+  <li>Each user is rate-limited based on their IP address (or other identifiers like API keys).</li>
+  <li>When a request is sent, the rate limiter middleware checks if the user is allowed to make the request based on the configured rate limit.</li>
+  <li>If the limit is exceeded, the API returns an error message, and the UI shows "Rate limit exceeded.</li>
+</ol>
 
